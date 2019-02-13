@@ -29,10 +29,6 @@ public class SendTweetActivity extends AppCompatActivity implements View.OnClick
     private ListView viewTweetsListView;
     private Button btnViewTweets;
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,15 +39,6 @@ public class SendTweetActivity extends AppCompatActivity implements View.OnClick
         viewTweetsListView = findViewById(R.id.viewTweetsListView);
         btnViewTweets = findViewById(R.id.btnViewTweets);
         btnViewTweets.setOnClickListener(this);
-
-
-        // HashMap<String, Integer> numbers = new HashMap<>();
-        // numbers.put("Number1", 1);
-        //  numbers.put("Number2", 2);
-
-
-
-        //  FancyToast.makeText(this,  numbers.get("Number1") + "", Toast.LENGTH_LONG, FancyToast.WARNING, true).show();
 
     }
 
